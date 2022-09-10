@@ -104,7 +104,7 @@ person.workExperience ="none";
   console.log(person.address.street);
 console.log(person.firstname,person.middlename,person.lastname)
   console.log(person.hobbies[2]);*/
-  const todos =[
+ /* const todos =[
     {
         id:1,
         
@@ -131,8 +131,55 @@ console.log(person.firstname,person.middlename,person.lastname)
 console.log(todos);
 console.log(todos[1].hobbies[2]);
 const todosJSON = JSON.stringify(todos);
-console.log(todosJSON);
+console.log(todosJSON);*/
 
+
+
+const family=[
+  {
+    Text:"father",
+    name:"hehe",
+    gender:"male",
+    address:{
+      street:"damaryone street",
+      number:3,
+      township:"Yankin",
+      city:"yangon",   
+     },
+     hobbies:["football","books","movies"],
+
+
+  },
+  {
+    Text:"mother",
+    name:"hoho",
+    gender:"female",
+    address:{
+      street:"damaryone street",
+      number:3,
+      township:"Yankin",
+      city:"yangon",   
+     },
+     hobbies:["walking","k-drama","movies"],
+
+
+  },
+  {
+    Text:"son",
+    name:"hohe",
+    gender:"male",
+    address:{
+      street:"damaryone street",
+      number:3,
+      township:"Yankin",
+      city:"yangon",   
+     },
+     hobbies:["games","games","games"],
+
+
+  },
+]
+console.log(family);
 
 
   
