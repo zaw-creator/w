@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Three Signature";
+    src: url("../font/Three Signature.otf");
+    src: url("../font/Three Signature.otf") format("otf"),
+      url("font/Three Signature.otf") format("opentype");
+  }
+  
+  .head {
+    color: red;
+  }
+  body {
+    background-color: #1e2e4d;
+  }
+  p {
+    color: wheat;
+  }
+  .lo {
+    line-height: 2em;
+    color: yellow;
+    font-size: 52px;
+    font-family: "Three Signature";
+    font-weight: 10px;
+  }
+  .body{
+    background-color: black;
+  }
+  .body{
+    color: white;
+    padding-left: 200px;
+    padding-top: 300px;
+  }
