@@ -7,7 +7,7 @@
 // // age = 19
 // // alert(age);
 // //  const age =17
-// // 
+// //
 
 // // const name="HHZ"
 // // const age= 19;
@@ -27,7 +27,6 @@
 
 // const s="hello hehe"
 
-
 // console.log(s);
 // console.log(s.length);
 // console.log(s.toUpperCase());
@@ -35,7 +34,6 @@
 // console.log(s.substring(0,7));
 // console.log(s.substring(5,10).toUpperCase());
 // console.log(s.split(""));
-
 
 // const name="hhz"
 // const age=18;
@@ -47,7 +45,7 @@
 
  console.log(s.split(","));*/
 
- /*const numbers = new Array(1,2,3,4);
+/*const numbers = new Array(1,2,3,4);
  console.log(numbers);
  console.log(numbers[1]);
 
@@ -57,7 +55,7 @@
  console.log(fruits[1]);
  console.log(fruits[0]);*/
 
- /*const fruits =["apple","orange","pineapple"];
+/*const fruits =["apple","orange","pineapple"];
   fruits[3]="grape";
   fruits[4]="pears";
   fruits.push("hehe");
@@ -73,12 +71,12 @@
 
   console.log(fruits.indexOf("hoho"));*/
 
-  /*const animals ={name: "MKK",type:"cow",age:2};
+/*const animals ={name: "MKK",type:"cow",age:2};
   console.log(animals);
   console.log(animals.type);
   console.log(animals.name);*/
 
- /* const person ={
+/* const person ={
             firstname:"nay",
             middlename:"htoo",
             lastname:"hlaing",
@@ -104,7 +102,7 @@ person.workExperience ="none";
   console.log(person.address.street);
 console.log(person.firstname,person.middlename,person.lastname)
   console.log(person.hobbies[2]);*/
- /* const todos =[
+/* const todos =[
     {
         id:1,
         
@@ -133,55 +131,42 @@ console.log(todos[1].hobbies[2]);
 const todosJSON = JSON.stringify(todos);
 console.log(todosJSON);*/
 
-
-
-const family=[
+const family = [
   {
-    Text:"father",
-    name:"hehe",
-    gender:"male",
-    address:{
-      street:"damaryone street",
-      number:3,
-      township:"Yankin",
-      city:"yangon",   
-     },
-     hobbies:["football","books","movies"],
-
-
+    name: "U He He",
+    memberType: "Father",
+    gender: "Male",
+    address: {
+      street: "Damaryone street",
+      number: 3,
+      township: "Yankin",
+      city: "Yangon",
+    },
+    hobbies: ["football", "books", "movies"],
   },
   {
-    Text:"mother",
-    name:"hoho",
-    gender:"female",
-    address:{
-      street:"damaryone street",
-      number:3,
-      township:"Yankin",
-      city:"yangon",   
-     },
-     hobbies:["walking","k-drama","movies"],
-
-
+    name: "Da Ho Ho",
+    memberType: "Mother",
+    gender: "Female",
+    address: {
+      street: "Damaryone street",
+      number: 3,
+      township: "Yankin",
+      city: "Yangon",
+    },
+    hobbies: ["walking", "k-drama", "movies"],
   },
   {
-    Text:"son",
-    name:"hohe",
-    gender:"male",
-    address:{
-      street:"damaryone street",
-      number:3,
-      township:"Yankin",
-      city:"yangon",   
-     },
-     hobbies:["games","games","games"],
-
-
+    name: "Mg Ho He",
+    memberType: "son",
+    gender: "Male",
+    address: {
+      street: "Damaryone street",
+      number: 3,
+      township: "Yankin",
+      city: "Yangon",
+    },
+    hobbies: ["games", "movies", "football"],
   },
-]
+];
 console.log(family);
-
-
-  
-
-
