@@ -102,36 +102,40 @@ person.workExperience ="none";
   console.log(person.address.street);
 console.log(person.firstname,person.middlename,person.lastname)
   console.log(person.hobbies[2]);*/
-/* const todos =[
-    {
-        id:1,
+// const todos =[
+//     {
+//         id:1,
         
-        text: "take lunch",
-        isComplete: true,
+//         text: "take lunch",
+//         isComplete: true,
 
-    },
-    {
-        id:2,
-        hobbies : [{text:"games"},{text:"dota"},{text:"books"},],
-        text: "take a rest",
-        isComplete: true,
-    },
+//     },
+//     {
+//         id:2,
+//         hobbies : [
+//           {text:"games"},{text:"dota"},{text:"books"},
+//         ],
+//         text: "take a rest",
+//         isComplete: true,
+//     },
 
-    {
-        id:3,
+//     {
+//         id:3,
        
-        text: "Meeting with boos",
-        isComplete: true,
+//         text: "Meeting with boos",
+//         isComplete: true,
 
-    },
-]
+//     },
+// ]
 
-console.log(todos);
-console.log(todos[1].hobbies[2]);
-const todosJSON = JSON.stringify(todos);
-console.log(todosJSON);*/
 
-const family = [
+
+// console.log(todos);
+// console.log(todos[1].hobbies[2]);
+// const todosJSON = JSON.stringify(todos);
+// console.log(todosJSON);
+
+/*const family = [
   {
     name: "U He He",
     memberType: "Father",
@@ -145,7 +149,7 @@ const family = [
     hobbies: ["football", "books", "movies"],
   },
   {
-    name: "Da Ho Ho",
+    name: "Daw Ho Ho",
     memberType: "Mother",
     gender: "Female",
     address: {
@@ -157,7 +161,7 @@ const family = [
     hobbies: ["walking", "k-drama", "movies"],
   },
   {
-    name: "Mg Ho He",
+    name: "Mg Ho He he ho",
     memberType: "son",
     gender: "Male",
     address: {
@@ -169,4 +173,48 @@ const family = [
     hobbies: ["games", "movies", "football"],
   },
 ];
-console.log(family);
+console.log(family);*/
+
+// 
+
+\
+  
+  // for (let i= 0; i <todos.length; i++ ){
+  //     console.log(todos[i].id);
+  //     console.log(todos[i].text);
+  //     console.log(todos[i].isComplete);
+  
+  // }
+  // for (let todo of todos){
+  //   console.log(todo.id);
+  // }
+  // todos.forEach(function(todo){
+  //   console.log(todo.id);
+  //   console.log(todo.text);
+  //   console.log(todo.isComplete);
+  //   console.log(todo[0])
+  // })
+
+//   const todoText = todos.map(function (todo) {
+//     return todo.text;
+// });
+// console.log(todoText);
+// const todocompleted =todos.filter(function(todo){
+//   return todo.isComplete === true;
+// });
+// console.log(todocompleted);
+
+// const todocompleted = todos
+// .filter(function(todo){
+//   return todo.isComplete === true;
+// })
+// .map (function (todo){
+//   return todo.text;
+// });
+// console.log(todocompleted);
+
+let i=0;
+while (i<=10){
+  console.log(`while loop no:${i}`);
+  i++;
+}
