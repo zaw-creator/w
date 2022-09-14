@@ -213,8 +213,8 @@ console.log(family);*/
 // });
 // console.log(todocompleted);
 
-let i=0;
-while (i<=10){
-  console.log(`while loop no:${i}`);
-  i++;
-}
+// let i=0;
+// while (i<=10){
+//   console.log(`while loop no:${i}`);
+//   i++;
+// }
