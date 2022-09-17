@@ -218,3 +218,135 @@ console.log(family);*/
 //   console.log(`while loop no:${i}`);
 //   i++;
 // }
+
+// const x = 10;
+// if( x == 10){
+//     console.log("x is 10");
+// }
+ 
+// const y = 16;
+// if (y == 15) {
+//     console.log('y is 15');
+
+// } else {
+//     console.log("y is not 15");
+// }
+
+// const a = 100;
+// if ( a == 50){
+//     console.log( "a is 50");
+// }else if (a > 50){
+//     console.log("a is greater than 50");
+// } else {
+//     console.log("a is less than 50");
+// }
+
+// const x =4;
+// const y = 11;
+// if (x >5 ||  y > 10 ) {
+//     console.log("x is greater than 5 or y is greater than 11");
+// }
+
+// const x =4 ;
+// const y = 11;
+// if (x > 5 && y > 10){
+//     console.log("x is greater than 5 and y is greater than 11");
+// }
+
+// const x = 10;
+// const color = x > 9 ? "red" : "blue";
+
+// console.log(color);
+
+// const color = "red";
+
+// switch (color) {
+//     case "red": 
+//     console.log("color is red");
+//     break;
+
+//     case "green":
+//         console.log("color is green");
+//         break;
+    
+//     default: 
+//     console.log("color is not green or red");
+//     break;
+// }
+
+// const name = "Htet Myet Lwin";
+
+// switch (name){
+//     case "myat kaung khant":
+//         console.log("name is myat kaung khant");
+//         break;
+
+//         case "Htet Myet Lwin":
+//         console.log("name is Htet Myet Lwin");
+//         break;
+
+//         default:
+//             console.log("name is Htet Myet Lwin or myat kaung khant");
+//             break;
+
+// }
+
+// function addNums(num1,num2){
+//     console.log(num1 + num2);
+// }
+
+// addNums(5,6);
+
+// function addNums(num1,num2){
+//     return num1 + num2;
+// }
+
+// console.log(addNums(5,6));
+
+// function multiNums(num1,num2){
+//     return num1 * num2;
+// }
+
+// console.log(multiNums(7,8));
+
+// function minusNums(num1,num2){
+//     console.log(num1 - num2);
+
+// }
+
+// minusNums(9,10);
+
+// function dividedNums(num1,num2){
+
+//         return num1 / num2;
+    
+// }
+// console.log(dividedNums(12,2));
+
+// function moduleNums(num1,num2){
+//     console.log(num1 % num2);
+// }
+// moduleNums(20,5);
+
+// const addNums =(num1,num2) =>{
+//     console.log(num1 + num2); 
+// };
+
+// addNums(5,6);
+
+// const addNums = (num1,num2) =>{
+//     return num1 + num2;
+// };
+
+// console.log(addNums(5,6));
+
+// function Person(firstName,lastName,dob){
+//     this.firstName = firstName;
+//     this.lastName =lastName;
+//     this.dob=dob;
+// }
+
+// const person1 = new Person("Htet Myet","Lwin","10/20/1995");
+
+// console.log(person1);
+// console.log(person1.firstName,person1.lastName,person1.dob);
