@@ -350,3 +350,53 @@ console.log(family);*/
 
 // console.log(person1);
 // console.log(person1.firstName,person1.lastName,person1.dob);
+// function Person(firstName,lastName,dob){
+//       this.firstName = firstName;
+//       this.lastName =lastName;
+//       this.dob =new Date(dob);
+      // this.dob=new Date(dob);
+      // this.gby =function(){
+      //   return this.dob.getFullYear();
+      // };
+      // this.getfullname=function(){
+      //   return `${this.firstName}${this.lastName}`
+      // }
+      
+  //     Person.prototype.getBirthYear = function(){
+  //       return this.dob.getFullYear();
+  //     };
+  //     Person.prototype.getfullname = function(){
+  //     return   `${this.firstName}${this.lastName}`;
+  //     };
+
+  // }
+  
+  // const person1 = new Person("Htet Myet","Lwin","10/20/1995");
+  
+  // console.log(person1);
+  
+  // console.log(person1.dob.getFullYear());
+  // console.log(person1.getBirthYear());
+  // console.log(person1.getfullname());
+  // console.log("Im " +person1.firstName, person1.lastName);
+
+  class Person{
+    constructor(firstname,lastname,dob){
+      this.firstname= firstname;
+      this.lastname= lastname;
+      this.dob= new Date(dob);
+    }
+    getBirthYear(){
+      return this.dob.getFullYear();
+    }
+    getFullName(){
+      return `${this.firstname}${this.lastname}`;
+    }
+    
+  }
+  const person1 = new Person("Htet Myet","Lwin","10/20/1995");
+
+  console.log(person1);
+  console.log(person1.getBirthYear());
+  console.log(person1.getFullName());
+  
