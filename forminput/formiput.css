@@ -52,3 +52,12 @@ ul li{
     background: wheat;
     margin: 5px;
 }
+.bg-dark{
+    background: black;
+}
+.error{
+    background: orangered;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
